@@ -1,0 +1,17 @@
+.fuente{
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	font-family:sans-serif;
+	text-align: justify;
+}
+.estilo2
+{
+	text-decoration: underline;
+	color:;
+}
+body{
+	background-image: url(../images/img.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
