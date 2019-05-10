@@ -8,9 +8,17 @@
 	<script >
 		 function prueba()
         {
-		
+		var txt = document.getElementById("nombre").value;
 		var label = document.getElementById("le");
-		label.textContent = "Jose es Gay";
+		if (txt == "Jose" ) {
+                label.textContent = "Jose es Gay";
+            }
+            else
+            {
+            	label.textContent = "Tu no eres el meco de Jose";
+            }
+		
+		
 	}
 	</script>
 </head>
@@ -35,6 +43,7 @@
 			<div class="prueba">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quibusdam, iusto adipisci quaerat magni. Eius laudantium veritatis iste quasi voluptates explicabo labore incidunt qui rem eum, placeat molestias, in velit.
 	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati quibusdam, iusto adipisci quaerat magni. Eius laudantium veritatis iste quasi voluptates explicabo labore incidunt qui rem eum, placeat molestias, in velit.
 			</div>
+			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore iusto, eligendi blanditiis error debitis sunt voluptas earum vel, quisquam eius vero illo, pariatur dolorum velit aliquam commodi. Velit magni, quasi.</div>
 			<p></p>
 	<div>
 		<form action="">
